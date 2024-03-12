@@ -11,11 +11,11 @@ function onUpdatePost()
 
     if ratingFC == '' then -- if the FC is nothing
 
-        setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Combo Breaks: ' .. misses .. ' | Accuracy: ?')
+        setProperty('scoreTxt.text', 'Score SINIX Aqui: ' .. score .. ' | Combo Breaks: ' .. misses .. ' | Accuracy: ?')
 
     else
 
-        setProperty('scoreTxt.text', 'Score: ' .. score .. ' | Combo Breaks: ' .. misses .. ' | Accuracy: ' ..round(rating * 100, 2).. '% [' ..ratingFC..']')
+        setProperty('scoreTxt.text', 'Score Mateuzinho Aqui: ' .. score .. ' | Combo Breaks: ' .. misses .. ' | Accuracy: ' ..round(rating * 100, 2).. '% [' ..ratingFC..']')
 
     end
 
